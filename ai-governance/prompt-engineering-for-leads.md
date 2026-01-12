@@ -336,7 +336,7 @@ Areas to cover:
 4. Areas for development
 
 For each area, prompt me with questions to consider.
-Do not write the actual feedback—help me think through it.
+Do not write the actual feedback-help me think through it.
 ```
 
 ### Meeting Facilitation
