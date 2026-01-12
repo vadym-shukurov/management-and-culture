@@ -37,7 +37,8 @@ management-and-culture/
 ├── management/                 # People & process frameworks
 ├── culture/                    # Engineering culture & standards
 ├── technical-strategy/         # Code ownership & governance
-└── incident-management/        # Post-mortem & failure handling
+├── incident-management/        # Post-mortem & failure handling
+└── ai-governance/              # AI policies & compliance
 ```
 
 ---
@@ -122,6 +123,27 @@ How we handle failures and turn them into improvements.
 
 ---
 
+## AI Governance
+
+Responsible AI adoption for engineering teams.
+
+| Document | Description |
+|:---|:---|
+| [Acceptable Use Policy](./ai-governance/acceptable-use-policy.md) | What's allowed, what's not, data protection rules |
+| [AI-Enhanced SDLC Guide](./ai-governance/ai-enhanced-sdlc-guide.md) | Integrating AI into every phase of development |
+| [Prompt Engineering for Leads](./ai-governance/prompt-engineering-for-leads.md) | Crafting effective prompts, teaching your team |
+| [Compliance & Risk Matrix](./ai-governance/compliance-and-risk-matrix.md) | Risk assessment, regulatory compliance, controls |
+
+### Key Principles
+
+- **Human oversight** — AI assists, humans decide
+- **Data protection** — Never expose sensitive data to AI
+- **Quality assurance** — AI output must be reviewed and tested
+- **Shift left** — Use AI to catch defects earlier
+- **Responsible adoption** — Balance speed with risk management
+
+---
+
 ## Philosophy Summary
 
 ```mermaid
@@ -149,6 +171,7 @@ graph TD
 | **A team lead** | [Ownership Model](./culture/ownership-model.md) |
 | **An architect** | [Code Guardianship](./technical-strategy/code-guardianship.md) |
 | **Handling an incident** | [Post-Mortem Template](./incident-management/post-mortem-template.md) |
+| **Using AI tools** | [AI Acceptable Use Policy](./ai-governance/acceptable-use-policy.md) |
 | **Everyone** | [Engineering Standards](./culture/engineering-standards.md) |
 
 ---
