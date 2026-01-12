@@ -115,6 +115,24 @@ A Peer Lead can override, but **must document the delta** in a follow-up ticket.
 
 ---
 
+## From Theory to Practice
+
+### How to Spot Gatekeeping in the Wild
+
+* **The "I'll just do it" trap:** A lead taking over a complex task because "it's faster than explaining it."
+* **Review Gatekeeping:** PR comments that focus on personal preference rather than functionality or growth.
+* **The Whisper Network:** Important architectural decisions happening in private DMs instead of public RFCs/Channels.
+
+### How to Act as a Steward
+
+1. **Record as you go:** If you explain a concept twice, document it once.
+2. **The "Review to Elevate" Rule:** Every PR review should include at least one "Why" or a link to documentation, not just a "Fix this."
+3. **Default to Public:** Move technical discussions to public channels so the "context" is searchable for the next person.
+
+> **The Steward's Goal:** To build a system so robust and a team so informed that your presence is a luxury, not a requirement.
+
+---
+
 ## Summary
 
 > **Every line of code has a MENTOR**
