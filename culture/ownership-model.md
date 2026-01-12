@@ -34,25 +34,15 @@ It ensures that every line of code has a mentor, and every contributor has a cle
 
 This prevents "Knowledge Silos" and ensures that the "owner" is actually a **facilitator of quality**, not a single point of failure.
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│                   QUARTERLY ROTATION                        │
-├─────────────────────────────────────────────────────────────┤
-│                                                             │
-│   Q1                Q2                Q3                Q4  │
-│   ──                ──                ──                ──  │
-│                                                             │
-│   /payments/        /payments/        /payments/        /payments/
-│   Owner: Alice  →   Owner: Bob    →   Owner: Carol  →   Owner: Alice
-│                                                             │
-│   /auth/            /auth/            /auth/            /auth/
-│   Owner: Bob    →   Owner: Carol  →   Owner: Alice  →   Owner: Bob
-│                                                             │
-│   /api/             /api/             /api/             /api/
-│   Owner: Carol  →   Owner: Alice →   Owner: Bob    →   Owner: Carol
-│                                                             │
-└─────────────────────────────────────────────────────────────┘
-```
+### Quarterly Rotation Example
+
+| Module | Q1 | Q2 | Q3 | Q4 |
+|:---|:---|:---|:---|:---|
+| `/payments/` | Alice | Bob | Carol | Alice |
+| `/auth/` | Bob | Carol | Alice | Bob |
+| `/api/` | Carol | Alice | Bob | Carol |
+
+### Traditional vs. Rotating CODEOWNERS
 
 | Traditional CODEOWNERS | Rotating CODEOWNERS |
 |:---|:---|
@@ -69,44 +59,20 @@ This prevents "Knowledge Silos" and ensures that the "owner" is actually a **fac
 
 A Peer Lead can override, but **must document the delta** in a follow-up ticket.
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│                    EMERGENCY BREAK FLOW                     │
-├─────────────────────────────────────────────────────────────┤
-│                                                             │
-│   PR Ready for Review                                       │
-│       │                                                     │
-│       ▼                                                     │
-│   ┌─────────────────────┐                                   │
-│   │ CODEOWNER Available │                                   │
-│   └─────────────────────┘                                   │
-│       │           │                                         │
-│      Yes          No                                        │
-│       │           │                                         │
-│       ▼           ▼                                         │
-│   Standard    ┌─────────────────┐                           │
-│   Review      │ Emergency Break │                           │
-│               └─────────────────┘                           │
-│                       │                                     │
-│                       ▼                                     │
-│               Peer Lead Reviews                             │
-│                       │                                     │
-│                       ▼                                     │
-│               Approval + Merge                              │
-│                       │                                     │
-│                       ▼                                     │
-│               ┌─────────────────────────┐                   │
-│               │ Create Follow-up Ticket │                   │
-│               │ "Delta Review: PR #123" │                   │
-│               └─────────────────────────┘                   │
-│                       │                                     │
-│                       ▼                                     │
-│               CODEOWNER Reviews on Return                   │
-│                                                             │
-└─────────────────────────────────────────────────────────────┘
-```
+### Emergency Break Flow
 
-#### Emergency Break Checklist
+| Step | Action |
+|:---:|:---|
+| 1 | PR Ready for Review |
+| 2 | Check: Is CODEOWNER available? |
+| 3a | **Yes** → Standard Review |
+| 3b | **No** → Emergency Break triggered |
+| 4 | Peer Lead reviews the PR |
+| 5 | Approval + Merge |
+| 6 | Create follow-up ticket: "Delta Review: PR #123" |
+| 7 | CODEOWNER reviews on return |
+
+### Emergency Break Checklist
 
 - [ ] CODEOWNER confirmed OOO or unresponsive (>24h for urgent PRs)
 - [ ] Peer Lead has sufficient context to review
@@ -120,7 +86,7 @@ A Peer Lead can override, but **must document the delta** in a follow-up ticket.
 
 ## CODEOWNERS Best Practices
 
-```
+```bash
 # Example CODEOWNERS file with rotation notes
 
 # Core Platform (Rotate: Q1-Alice, Q2-Bob, Q3-Carol, Q4-Alice)
@@ -151,19 +117,13 @@ A Peer Lead can override, but **must document the delta** in a follow-up ticket.
 
 ## Summary
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│                                                             │
-│   Every line of code has a MENTOR                          │
-│                    +                                        │
-│   Every contributor has a clear PATH                        │
-│                    +                                        │
-│   Every review is about ELEVATION                           │
-│                    =                                        │
-│   SUSTAINABLE CODE OWNERSHIP                                │
-│                                                             │
-└─────────────────────────────────────────────────────────────┘
-```
+> **Every line of code has a MENTOR**
+> 
+> **Every contributor has a clear PATH**
+> 
+> **Every review is about ELEVATION**
+> 
+> **= SUSTAINABLE CODE OWNERSHIP**
 
 ---
 
