@@ -27,19 +27,19 @@ This document exists to accelerate our working relationship. It's my attempt at 
 
 ### What I Believe
 
-- **People over process** — Frameworks serve people, not the other way around
-- **Autonomy with accountability** — Freedom to decide, ownership of outcomes
-- **Progress over perfection** — Ship, learn, iterate
-- **Transparency by default** — Bad news early, good news shared
-- **Systems thinking** — Fix the system, not the symptom
+- **People over process** - Frameworks serve people, not the other way around
+- **Autonomy with accountability** - Freedom to decide, ownership of outcomes
+- **Progress over perfection** - Ship, learn, iterate
+- **Transparency by default** - Bad news early, good news shared
+- **Systems thinking** - Fix the system, not the symptom
 
 ### My Job
 
-1. **Remove blockers** — Clear the path so you can do your best work
-2. **Provide context** — Share the "why" behind decisions and priorities
-3. **Develop people** — Help you grow faster than you would alone
-4. **Set direction** — Align the team toward meaningful outcomes
-5. **Protect focus** — Shield the team from unnecessary noise
+1. **Remove blockers** - Clear the path so you can do your best work
+2. **Provide context** - Share the "why" behind decisions and priorities
+3. **Develop people** - Help you grow faster than you would alone
+4. **Set direction** - Align the team toward meaningful outcomes
+5. **Protect focus** - Shield the team from unnecessary noise
 
 ---
 
@@ -58,15 +58,15 @@ This document exists to accelerate our working relationship. It's my attempt at 
 ### My Communication Style
 
 **What you'll notice:**
-- I write a lot—it's how I think
-- I ask clarifying questions—I want to understand before I advise
-- I'm direct—I say what I mean, no hidden agendas
-- I default to async—interruptions are expensive
+- I write a lot-it's how I think
+- I ask clarifying questions-I want to understand before I advise
+- I'm direct-I say what I mean, no hidden agendas
+- I default to async-interruptions are expensive
 
 **What I need from you:**
-- Lead with context—"Here's the situation, here's what I need"
-- Be specific—vague concerns get vague responses
-- Tell me the ask—are you venting, seeking advice, or need a decision?
+- Lead with context-"Here's the situation, here's what I need"
+- Be specific-vague concerns get vague responses
+- Tell me the ask-are you venting, seeking advice, or need a decision?
 
 ---
 
@@ -96,11 +96,11 @@ This document exists to accelerate our working relationship. It's my attempt at 
 
 ## How I Give Feedback
 
-- **Frequently** — Small feedback often beats big feedback rarely
-- **Directly** — I'll tell you what I think, clearly and kindly
-- **Privately** — Constructive feedback happens 1:1, not in public
-- **With examples** — I'll be specific about what I observed
-- **With care** — My goal is your growth, not criticism
+- **Frequently** - Small feedback often beats big feedback rarely
+- **Directly** - I'll tell you what I think, clearly and kindly
+- **Privately** - Constructive feedback happens 1:1, not in public
+- **With examples** - I'll be specific about what I observed
+- **With care** - My goal is your growth, not criticism
 
 ### The SBI Model I Use
 
@@ -118,18 +118,18 @@ This document exists to accelerate our working relationship. It's my attempt at 
 
 ### What Works
 
-- Be direct—don't soften it so much I miss the point
-- Be timely—tell me soon after the event
-- Be specific—"That meeting felt unproductive" is less useful than "The meeting ran over because we didn't have a clear agenda"
-- Tell me in private first—I'll take it better
+- Be direct-don't soften it so much I miss the point
+- Be timely-tell me soon after the event
+- Be specific-"That meeting felt unproductive" is less useful than "The meeting ran over because we didn't have a clear agenda"
+- Tell me in private first-I'll take it better
 
 ### What I'm Working On
 
 Areas I'm actively trying to improve:
 
-- **Patience** — I can move too fast and leave people behind
-- **Delegation** — I sometimes jump in when I should let others lead
-- **Listening** — I occasionally formulate responses before you finish talking
+- **Patience** - I can move too fast and leave people behind
+- **Delegation** - I sometimes jump in when I should let others lead
+- **Listening** - I occasionally formulate responses before you finish talking
 
 ---
 
@@ -139,7 +139,7 @@ Things you'll notice if you work with me:
 
 | Quirk | Context |
 |:---|:---|
-| **I think out loud** | My first idea isn't always my final position—push back |
+| **I think out loud** | My first idea isn't always my final position-push back |
 | **I love whiteboards** | Complex problems need visual thinking |
 | **I protect mornings** | Deep work happens before noon; meetings after |
 | **I take notes** | If I'm writing, I'm engaged, not distracted |
@@ -151,10 +151,10 @@ Things you'll notice if you work with me:
 
 ### What to Expect
 
-- **Your meeting** — You set the agenda, I adapt
-- **60 minutes** — Enough time for real conversation
-- **Weekly cadence** — Consistency builds trust
-- **Private** — What we discuss stays between us
+- **Your meeting** - You set the agenda, I adapt
+- **60 minutes** - Enough time for real conversation
+- **Weekly cadence** - Consistency builds trust
+- **Private** - What we discuss stays between us
 
 ### What I'll Ask
 
@@ -176,12 +176,12 @@ Things you'll notice if you work with me:
 
 ### How I Make Decisions
 
-1. **Gather context** — Data, perspectives, constraints
-2. **Identify options** — What are the trade-offs?
-3. **Consult stakeholders** — Who needs to weigh in?
-4. **Decide** — Bias toward action over analysis paralysis
-5. **Communicate** — Share the what and the why
-6. **Iterate** — Revisit if new information emerges
+1. **Gather context** - Data, perspectives, constraints
+2. **Identify options** - What are the trade-offs?
+3. **Consult stakeholders** - Who needs to weigh in?
+4. **Decide** - Bias toward action over analysis paralysis
+5. **Communicate** - Share the what and the why
+6. **Iterate** - Revisit if new information emerges
 
 ### My Decision Framework
 
