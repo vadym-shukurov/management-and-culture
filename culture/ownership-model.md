@@ -8,26 +8,21 @@ It ensures that every line of code has a mentor, and every contributor has a cle
 
 ## Philosophy
 
-```
-# Engineering Culture: Gatekeeping vs. Stewardship
+### Gatekeeping vs. Stewardship
 
-
-| **Gatekeeping** ❌ | **Stewardship** ✅ |
-| :--- | :--- |
-| **"This is MY code"** | **"I mentor this area"** |
+| Gatekeeping | Stewardship |
+|:---|:---|
+| "This is MY code" | "I mentor this area" |
 | Blocks contributions | Enables contributors |
 | Single point of failure | Knowledge multiplier |
 | Hoards context | Shares context |
 | Reviews to protect | Reviews to elevate |
 
----
+### Why This Matters
 
-### Why this matters
-* **Scalability:** Stewards build systems that outlast their own involvement.
-* **Velocity:** Removing "Single points of failure" prevents PR bottlenecks.
-* **Growth:** "Reviews to elevate" turns every code review into a learning opportunity.
-
-```
+- **Scalability:** Stewards build systems that outlast their own involvement
+- **Velocity:** Removing "single points of failure" prevents PR bottlenecks
+- **Growth:** "Reviews to elevate" turns every code review into a learning opportunity
 
 ---
 
@@ -40,23 +35,23 @@ It ensures that every line of code has a mentor, and every contributor has a cle
 This prevents "Knowledge Silos" and ensures that the "owner" is actually a **facilitator of quality**, not a single point of failure.
 
 ```
-┌──────────────────────────────────────────────────────────────────────┐
-│                   QUARTERLY ROTATION                                 │
-├──────────────────────────────────────────────────────────────────────┤
-│                                                                      │
-│   Q1                Q2                Q3                    Q4       │
-│   ──                ──                ──                    ──       │
-│                                                                      │
-│   /payments/        /payments/        /payments/        /payments/   │
-│   Owner: Alice  →   Owner: Bob    →   Owner: Carol  →   Owner: Alice │
-│                                                                      │
-│   /auth/            /auth/            /auth/            /auth/       │
-│   Owner: Bob    →   Owner: Carol  →   Owner: Alice  →   Owner: Bob   │
-│                                                                      │
-│   /api/             /api/             /api/             /api/        │
-│   Owner: Carol  →   Owner: Alice →   Owner: Bob    →   Owner: Carol  │
-│                                                                      │
-└──────────────────────────────────────────────────────────────────────┘
+┌─────────────────────────────────────────────────────────────┐
+│                   QUARTERLY ROTATION                        │
+├─────────────────────────────────────────────────────────────┤
+│                                                             │
+│   Q1                Q2                Q3                Q4  │
+│   ──                ──                ──                ──  │
+│                                                             │
+│   /payments/        /payments/        /payments/        /payments/
+│   Owner: Alice  →   Owner: Bob    →   Owner: Carol  →   Owner: Alice
+│                                                             │
+│   /auth/            /auth/            /auth/            /auth/
+│   Owner: Bob    →   Owner: Carol  →   Owner: Alice  →   Owner: Bob
+│                                                             │
+│   /api/             /api/             /api/             /api/
+│   Owner: Carol  →   Owner: Alice →   Owner: Bob    →   Owner: Carol
+│                                                             │
+└─────────────────────────────────────────────────────────────┘
 ```
 
 | Traditional CODEOWNERS | Rotating CODEOWNERS |
@@ -100,10 +95,10 @@ A Peer Lead can override, but **must document the delta** in a follow-up ticket.
 │               Approval + Merge                              │
 │                       │                                     │
 │                       ▼                                     │
-│             ┌─────────────────────────┐                     │
-│             │ Create Follow-up Ticket │                     │
-│             │ "Delta Review: PR #123" │                     │
-│             └─────────────────────────┘                     │
+│               ┌─────────────────────────┐                   │
+│               │ Create Follow-up Ticket │                   │
+│               │ "Delta Review: PR #123" │                   │
+│               └─────────────────────────┘                   │
 │                       │                                     │
 │                       ▼                                     │
 │               CODEOWNER Reviews on Return                   │
@@ -159,7 +154,7 @@ A Peer Lead can override, but **must document the delta** in a follow-up ticket.
 ```
 ┌─────────────────────────────────────────────────────────────┐
 │                                                             │
-│   Every line of code has a MENTOR                           │
+│   Every line of code has a MENTOR                          │
 │                    +                                        │
 │   Every contributor has a clear PATH                        │
 │                    +                                        │
