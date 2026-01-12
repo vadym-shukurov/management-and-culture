@@ -221,26 +221,41 @@ This policy will be reviewed quarterly as AI capabilities evolve. Significant ch
 
 ## Quick Reference Card
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│                    AI ACCEPTABLE USE                        │
-├─────────────────────────────────────────────────────────────┤
-│                                                             │
-│  ✅ DO                          ❌ DON'T                    │
-│  ─────                          ────────                    │
-│  • Generate boilerplate         • Input customer data       │
-│  • Write tests                  • Input credentials         │
-│  • Draft documentation          • Input proprietary code    │
-│  • Debug with sanitized code    • Trust output blindly      │
-│  • Learn new technologies       • Skip code review          │
-│                                                             │
-│  🔒 ALWAYS                                                  │
-│  ──────────                                                 │
-│  • Sanitize inputs              • Review all output         │
-│  • Use approved tools           • Understand before merge   │
-│                                                             │
-└─────────────────────────────────────────────────────────────┘
-```
+<table>
+<tr>
+<td>
+
+### ✅ DO
+
+- Generate boilerplate
+- Write tests
+- Draft documentation
+- Debug with sanitized code
+- Learn new technologies
+
+</td>
+<td>
+
+### ❌ DON'T
+
+- Input customer data
+- Input credentials
+- Input proprietary code
+- Trust output blindly
+- Skip code review
+
+</td>
+</tr>
+</table>
+
+### 🔒 ALWAYS
+
+| Before Using AI | After Receiving Output |
+|:---|:---|
+| Sanitize all inputs | Review all output |
+| Use approved tools only | Understand before merging |
+| Remove credentials/PII | Test thoroughly |
+| Check data classification | Validate accuracy |
 
 ---
 
