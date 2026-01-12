@@ -8,7 +8,7 @@
 
 > **Building high-performing engineering teams through intentional culture, clear ownership, and scalable processes.**
 
-This repository contains frameworks, philosophies, and practical guides for engineering leadership—distilled from years of experience scaling teams and delivering results.
+This repository contains frameworks, philosophies, and practical guides for engineering leadership-distilled from years of experience scaling teams and delivering results.
 
 ---
 
@@ -79,9 +79,9 @@ Frameworks for developing people and running effective teams.
 
 ### Key Principles
 
-- **Ownership over checklist** — Teams define their social fabric
-- **High-touch onboarding** — 4 weeks of structured pair programming
-- **Gradual autonomy** — From observation to leadership
+- **Ownership over checklist** - Teams define their social fabric
+- **High-touch onboarding** - 4 weeks of structured pair programming
+- **Gradual autonomy** - From observation to leadership
 
 ---
 
@@ -96,10 +96,10 @@ Standards and philosophies that define how we work together.
 
 ### Key Principles
 
-- **Stewardship > Gatekeeping** — Owners mentor, not block
-- **Automated consistency** — Let linters handle style debates
-- **Blameless culture** — Systems fail, not people
-- **Default to public** — Context should be searchable
+- **Stewardship > Gatekeeping** - Owners mentor, not block
+- **Automated consistency** - Let linters handle style debates
+- **Blameless culture** - Systems fail, not people
+- **Default to public** - Context should be searchable
 
 ---
 
@@ -113,10 +113,10 @@ Governance structures for code quality and team scalability.
 
 ### Key Principles
 
-- **Clear accountability** — Every file has a defined owner
-- **Appropriate expertise** — Critical paths get senior review
-- **Reduced cognitive load** — Automated PR assignment
-- **Safety nets** — Ship fast within guardrails
+- **Clear accountability** - Every file has a defined owner
+- **Appropriate expertise** - Critical paths get senior review
+- **Reduced cognitive load** - Automated PR assignment
+- **Safety nets** - Ship fast within guardrails
 
 ---
 
@@ -130,10 +130,10 @@ How we handle failures and turn them into improvements.
 
 ### Key Principles
 
-- **Blameless by default** — We examine systems, not individuals
-- **Every incident is a gift** — Opportunities for systemic improvement
-- **Action-oriented** — Every post-mortem produces concrete fixes
-- **Transparent sharing** — Learnings benefit the entire organization
+- **Blameless by default** - We examine systems, not individuals
+- **Every incident is a gift** - Opportunities for systemic improvement
+- **Action-oriented** - Every post-mortem produces concrete fixes
+- **Transparent sharing** - Learnings benefit the entire organization
 
 ---
 
