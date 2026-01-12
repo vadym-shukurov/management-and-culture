@@ -26,6 +26,7 @@ It ensures that every line of code has a mentor, and every contributor has a cle
 * **Scalability:** Stewards build systems that outlast their own involvement.
 * **Velocity:** Removing "Single points of failure" prevents PR bottlenecks.
 * **Growth:** "Reviews to elevate" turns every code review into a learning opportunity.
+
 ```
 
 ---
