@@ -1,6 +1,6 @@
 # Blameless Post-Mortem Template
 
-> **"Every incident is a gift—an opportunity to make our systems more resilient."**
+> **"Every incident is a gift-an opportunity to make our systems more resilient."**
 
 This template guides teams through a structured, blameless analysis of incidents. The goal is systemic improvement, not individual blame.
 
@@ -80,7 +80,7 @@ This template guides teams through a structured, blameless analysis of incidents
 | **Why 2** | Why was an invalid config deployed? | No validation in the deployment pipeline |
 | **Why 3** | Why was there no validation? | It was a manual process, assumed correct |
 | **Why 4** | Why was it manual? | Validation tooling was deprioritized |
-| **Why 5** | Why was it deprioritized? | No previous incidents—risk was underestimated |
+| **Why 5** | Why was it deprioritized? | No previous incidents-risk was underestimated |
 
 #### Root Cause Statement
 
@@ -105,7 +105,7 @@ This template guides teams through a structured, blameless analysis of incidents
 
 ### What Went Wrong
 
-> *Identify systemic failures—not individual mistakes.*
+> *Identify systemic failures-not individual mistakes.*
 
 - [ ] No automated config validation
 - [ ] Runbook was outdated
@@ -178,7 +178,7 @@ This template guides teams through a structured, blameless analysis of incidents
 - **Systemic fixes** → Problems don't recur
 - **Learning culture** → Team gets stronger after every incident
 
-> **"If a human can make a mistake, our system should make it impossible—or at least recoverable."**
+> **"If a human can make a mistake, our system should make it impossible-or at least recoverable."**
 
 ---
 
