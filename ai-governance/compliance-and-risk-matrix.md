@@ -278,15 +278,15 @@ graph TD
 │  └── NO ↓                                                   │
 │                                                             │
 │  Is it proprietary/confidential business logic?             │
-│  ├── YES → ❌ DO NOT USE AI (or sanitize heavily)          │
+│  ├── YES → ❌ DO NOT USE AI (or sanitize heavily)           │
 │  └── NO ↓                                                   │
 │                                                             │
 │  Is the AI tool on the approved list?                       │
-│  ├── NO → ❌ DO NOT USE (request evaluation)               │
+│  ├── NO → ❌ DO NOT USE (request evaluation)                │
 │  └── YES ↓                                                  │
 │                                                             │
 │  Are you using the enterprise/business tier?                │
-│  ├── NO → ⚠️ Limited to public information only            │
+│  ├── NO → ⚠️ Limited to public information only             │
 │  └── YES ↓                                                  │
 │                                                             │
 │  ✅ PROCEED with standard review processes                  │
