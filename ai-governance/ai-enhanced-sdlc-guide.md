@@ -1,6 +1,6 @@
 # AI-Enhanced SDLC Guide
 
-> **"Shift left with AI—catch defects earlier, ship faster, maintain quality."**
+> **"Shift left with AI-catch defects earlier, ship faster, maintain quality."**
 
 This guide defines how AI tools integrate into each phase of our Software Development Lifecycle to maximize productivity while maintaining engineering excellence.
 
@@ -277,7 +277,7 @@ Traces → AI Pattern Matching → Bottleneck ID → Human Fix
 │                                                             │
 │  Review Time            Defects                 MTTR        │
 │  ───────────            ───────                 ────        │
-│  -25% avg               Pre-prod: +40%         -22% avg    │
+│  -25% avg               Pre-prod: +40%         -22% avg     │
 │                         Escaped: -35%                       │
 │                                                             │
 └─────────────────────────────────────────────────────────────┘
