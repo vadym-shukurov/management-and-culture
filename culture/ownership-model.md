@@ -9,18 +9,15 @@ It ensures that every line of code has a mentor, and every contributor has a cle
 ## Philosophy
 
 ```
-┌─────────────────────────────────────────────────────────────┐
-│                                                             │
-│   GATEKEEPING                      STEWARDSHIP              │
-│   ───────────                      ───────────              │
-│                                                             │
-│   ❌ "This is MY code"             ✅ "I mentor this area"  │
-│   ❌ Blocks contributions          ✅ Enables contributors  │
-│   ❌ Single point of failure       ✅ Knowledge multiplier  │
-│   ❌ Hoards context                ✅ Shares context        │
-│   ❌ Reviews to protect            ✅ Reviews to elevate    │
-│                                                             │
-└─────────────────────────────────────────────────────────────┘
+# Engineering Culture: Gatekeeping vs. Stewardship
+
+| Gatekeeping ❌ | Stewardship ✅ |
+| :--- | :--- |
+| **"This is MY code"** | **"I mentor this area"** |
+| Blocks contributions | Enables contributors |
+| Single point of failure | Knowledge multiplier |
+| Hoards context | Shares context |
+| Reviews to protect | Reviews to elevate |
 ```
 
 ---
