@@ -11,13 +11,21 @@ It ensures that every line of code has a mentor, and every contributor has a cle
 ```
 # Engineering Culture: Gatekeeping vs. Stewardship
 
-| Gatekeeping ❌ | Stewardship ✅ |
+
+| **Gatekeeping** ❌ | **Stewardship** ✅ |
 | :--- | :--- |
 | **"This is MY code"** | **"I mentor this area"** |
 | Blocks contributions | Enables contributors |
 | Single point of failure | Knowledge multiplier |
 | Hoards context | Shares context |
 | Reviews to protect | Reviews to elevate |
+
+---
+
+### Why this matters
+* **Scalability:** Stewards build systems that outlast their own involvement.
+* **Velocity:** Removing "Single points of failure" prevents PR bottlenecks.
+* **Growth:** "Reviews to elevate" turns every code review into a learning opportunity.
 ```
 
 ---
