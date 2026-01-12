@@ -24,7 +24,7 @@ A structured approach to one-on-one meetings that prioritizes human connection, 
 **Opening Question:**
 - "How are you *actually* doing?"
 
-**Why it matters:** People aren't just employees—they're humans with lives outside work. Starting here builds trust and psychological safety.
+**Why it matters:** People aren't just employees-they're humans with lives outside work. Starting here builds trust and psychological safety.
 
 ---
 
