@@ -8,40 +8,24 @@
 
 > **Building high-performing engineering teams through intentional culture, clear ownership, and scalable processes.**
 
-This repository contains frameworks, philosophies, and practical guides for engineering leadership-distilled from years of experience scaling teams and delivering results.
+This repository contains frameworks, philosophies, and practical guides for engineering leadership—distilled from years of experience scaling teams and delivering results.
 
 ---
 
-## The Developer Lifecycle
+## The Culture Machine
+
+How developers progress through our system:
 
 ```mermaid
-flowchart LR
-    subgraph ONBOARDING["🚀 Onboarding"]
-        A[Week 1: Observe] --> B[Week 2: Practice]
-        B --> C[Week 3: Expand]
-        C --> D[Week 4: Lead]
-    end
-    
-    subgraph GROWTH["📈 Growth"]
-        E[Pair Programming] --> F[Code Ownership]
-        F --> G[Technical Leadership]
-        G --> H[Mentorship]
-    end
-    
-    subgraph EXCELLENCE["⭐ Excellence"]
-        I[Ship Features] --> J[Own Systems]
-        J --> K[Define Standards]
-        K --> L[Build Teams]
-    end
-    
-    D --> E
-    H --> I
-    L --> |Cycle Continues| A
-    
-    style ONBOARDING fill:#e1f5fe
-    style GROWTH fill:#f3e5f5
-    style EXCELLENCE fill:#e8f5e9
+graph LR
+    A[New Hire] --> B(Team-Owned Onboarding)
+    B --> C(4-Week Pairing)
+    C --> D(CODEOWNERS Stewardship)
+    D --> E(Self-Reflective Growth)
+    E -->|Feedback Loop| B
 ```
+
+> **The loop never ends.** Even senior engineers cycle back through pairing and stewardship as they take on new domains.
 
 ---
 
@@ -79,9 +63,9 @@ Frameworks for developing people and running effective teams.
 
 ### Key Principles
 
-- **Ownership over checklist** - Teams define their social fabric
-- **High-touch onboarding** - 4 weeks of structured pair programming
-- **Gradual autonomy** - From observation to leadership
+- **Ownership over checklist** — Teams define their social fabric
+- **High-touch onboarding** — 4 weeks of structured pair programming
+- **Gradual autonomy** — From observation to leadership
 
 ---
 
@@ -91,15 +75,16 @@ Standards and philosophies that define how we work together.
 
 | Document | Description |
 |:---|:---|
-| [Engineering Standards](./culture/engineering-standards.md) | Code style, Scout Rule, blameless post-mortems, ADRs |
+| [Engineering Standards](./culture/engineering-standards.md) | Code style, Scout Rule, ADRs |
 | [Ownership Model](./culture/ownership-model.md) | Stewardship over gatekeeping, anti-bottleneck strategies |
+| [Blameless Post-Mortem](./culture/blameless-post-mortem.md) | How we handle failure with psychological safety |
 
 ### Key Principles
 
-- **Stewardship > Gatekeeping** - Owners mentor, not block
-- **Automated consistency** - Let linters handle style debates
-- **Blameless culture** - Systems fail, not people
-- **Default to public** - Context should be searchable
+- **Stewardship > Gatekeeping** — Owners mentor, not block
+- **Automated consistency** — Let linters handle style debates
+- **Blameless culture** — Systems fail, not people
+- **Default to public** — Context should be searchable
 
 ---
 
@@ -113,10 +98,10 @@ Governance structures for code quality and team scalability.
 
 ### Key Principles
 
-- **Clear accountability** - Every file has a defined owner
-- **Appropriate expertise** - Critical paths get senior review
-- **Reduced cognitive load** - Automated PR assignment
-- **Safety nets** - Ship fast within guardrails
+- **Clear accountability** — Every file has a defined owner
+- **Appropriate expertise** — Critical paths get senior review
+- **Reduced cognitive load** — Automated PR assignment
+- **Safety nets** — Ship fast within guardrails
 
 ---
 
@@ -130,45 +115,23 @@ How we handle failures and turn them into improvements.
 
 ### Key Principles
 
-- **Blameless by default** - We examine systems, not individuals
-- **Every incident is a gift** - Opportunities for systemic improvement
-- **Action-oriented** - Every post-mortem produces concrete fixes
-- **Transparent sharing** - Learnings benefit the entire organization
+- **Blameless by default** — We examine systems, not individuals
+- **Every incident is a gift** — Opportunities for systemic improvement
+- **Action-oriented** — Every post-mortem produces concrete fixes
+- **Transparent sharing** — Learnings benefit the entire organization
 
 ---
 
 ## Philosophy Summary
 
 ```mermaid
-flowchart TB
-    subgraph INPUTS["Inputs"]
-        A[Autonomy]
-        B[Accountability]
-    end
-    
-    subgraph PRACTICES["Practices"]
-        C[Clear Ownership]
-        D[Blameless Culture]
-        E[Continuous Learning]
-    end
-    
-    subgraph OUTCOMES["Outcomes"]
-        F[High-Performing Teams]
-        G[Sustainable Velocity]
-        H[Engineering Excellence]
-    end
-    
-    A --> C
-    A --> D
-    B --> C
-    B --> E
-    C --> F
-    D --> G
-    E --> H
-    
-    style INPUTS fill:#fff3e0
-    style PRACTICES fill:#e3f2fd
-    style OUTCOMES fill:#e8f5e9
+graph TD
+    A[Autonomy] --> C[Clear Ownership]
+    B[Accountability] --> C
+    C --> D[Psychological Safety]
+    D --> E[Blameless Post-Mortems]
+    E --> F[Continuous Improvement]
+    F -->|Learning Loop| A
 ```
 
 ### The Goal
