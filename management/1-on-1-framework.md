@@ -88,18 +88,18 @@ Use these powerful questions to spark deeper conversations:
 ## Quick Reference Card
 
 ```
-┌─────────────────────────────────────────────────────────────┐
-│                    1-ON-1 CHECKLIST                         │
-├─────────────────────────────────────────────────────────────┤
-│                                                             │
+┌────────────────────────────────────────────────────────────┐
+│                    1-ON-1 CHECKLIST                        │
+├────────────────────────────────────────────────────────────┤
+│                                                            │
 │  □ Start with genuine curiosity about them as a person     │
 │  □ Let THEM drive the agenda                               │
 │  □ Ask open-ended questions, then listen                   │
 │  □ Connect their work to career goals                      │
 │  □ Ask for feedback on YOUR leadership                     │
 │  □ End with clear, owned action items                      │
-│                                                             │
-└─────────────────────────────────────────────────────────────┘
+│                                                            │
+└────────────────────────────────────────────────────────────┘
 ```
 
 ---
