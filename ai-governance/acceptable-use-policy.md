@@ -1,6 +1,6 @@
 # AI Acceptable Use Policy
 
-> **"AI is a force multiplier for engineering excellence—when used responsibly."**
+> **"AI is a force multiplier for engineering excellence-when used responsibly."**
 
 This policy defines how our engineering teams may use AI tools while protecting intellectual property, maintaining security, and ensuring ethical application.
 
@@ -104,11 +104,11 @@ Before pasting code into AI tools:
 
 ### All AI-Generated Code Must:
 
-1. **Pass Code Review** — Same standards as human-written code
-2. **Pass All Tests** — Unit, integration, and E2E where applicable
-3. **Pass Security Scans** — SAST/DAST tools, dependency checks
-4. **Pass Linting** — Style and formatting standards
-5. **Be Understood** — Author must explain what it does
+1. **Pass Code Review** - Same standards as human-written code
+2. **Pass All Tests** - Unit, integration, and E2E where applicable
+3. **Pass Security Scans** - SAST/DAST tools, dependency checks
+4. **Pass Linting** - Style and formatting standards
+5. **Be Understood** - Author must explain what it does
 
 ### The "Explain It" Rule
 
@@ -168,10 +168,10 @@ Only use AI tools approved by Security/IT:
 
 If you accidentally expose sensitive data to an AI tool:
 
-1. **Stop** — Don't input more data
-2. **Report** — Notify Security immediately
-3. **Document** — Record what was exposed
-4. **Remediate** — Rotate credentials if applicable
+1. **Stop** - Don't input more data
+2. **Report** - Notify Security immediately
+3. **Document** - Record what was exposed
+4. **Remediate** - Rotate credentials if applicable
 
 ---
 
