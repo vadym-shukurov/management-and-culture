@@ -47,7 +47,7 @@ Instead of a top-down checklist, the team maintains a `ONBOARDING_LIVING_DOC.md`
 | **1** | Mentor | New Hire | Environment, local setup, and "Why" behind the architecture |
 | **2** | New Hire | Mentor | First bug fix/small feature, PR process, CI/CD flow |
 | **3** | Rotating | Rotating | Different coding styles and sub-systems |
-| **4** | New Hire | Team | Autonomy check—new hire leads a session |
+| **4** | New Hire | Team | Autonomy check-new hire leads a session |
 
 ---
 
@@ -133,10 +133,10 @@ Drives          Drives          Pairs           Leads
 
 ## Key Principles
 
-1. **Learning by Doing** — Documentation supports, but doesn't replace, hands-on experience
-2. **Psychological Safety** — It's okay to make mistakes in the first 4 weeks
-3. **Relationship Building** — Technical skills matter, but so do team connections
-4. **Gradual Autonomy** — Structured handoff from guidance to independence
+1. **Learning by Doing** - Documentation supports, but doesn't replace, hands-on experience
+2. **Psychological Safety** - It's okay to make mistakes in the first 4 weeks
+3. **Relationship Building** - Technical skills matter, but so do team connections
+4. **Gradual Autonomy** - Structured handoff from guidance to independence
 
 ---
 
